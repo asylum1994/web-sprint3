@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffc107; /* Fondo amarillo */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff; /* Fondo blanco */
+  }
+  nav ul li img {
+    width: 20px; /* Ajusta el ancho según sea necesario */
+    height: auto; /* Mantiene la relación de aspecto */
+    margin-left: 10px; /* Ajusta el margen izquierdo según sea necesario */
+}
+
+  h1, h2 {
+    color: #333;
+  }
+  
+  h1 {
+    text-align: left; /* Alineación a la izquierda */
+  }
+  
+  h2 {
+      text-align: left;
+  } /* Alineación al centro */
+  
+  
+  nav {
+    text-align: right; /* Alineación a la derecha */
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-left: 10px;
+  }
+  
+  nav ul li:first-child {
+    margin-left: 0;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold; /* Añadir negrita */
+}
+  
+  .content {
+    margin-top: 30px;
+  }
+  
+  .pending, .search {
+    margin-bottom: 20px; /* Espacio entre los elementos */
+  }
+  
+  .pending label, .search label {
+    margin-right: 10px;
+  }
+  
+  .pending input[type="date"], .search input[type="text"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .pending button, .search button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: #fff;
+  }
+  
+  .pending button:hover, .search button:hover {
+    opacity: 0.8;
+  }
+  
+  .table {
+    display: table;
+    width: 100%;
+  }
+  
+  .row {
+    display: table-row;
+  }
+  
+  .row.header {
+    font-weight: bold;
+  }
+  
+  .row > div {
+    display: table-cell;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .invitacion {
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-align: center;
+    width: 100px;
+  }
+  
+  .aceptado {
+    background-color: #4CAF50; /* Verde */
+    color: #fff;
+  }
+  
+  .pendiente {
+    background-color: #2196F3; /* Azul */
+    color: #fff;
+  }
+  
+  .rechazado {
+    background-color: #FF5722; /* Rojo */
+    color: #fff;
+  }
+  
